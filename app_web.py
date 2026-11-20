@@ -1,7 +1,6 @@
 """
-Serveur Web & Dashboard Moderne pour la Gestion de la Bibliothèque
-Interface Graphique Dynamique & Agréable (SaaS / Tailwind style)
-Conforme au Document Officiel de Référence.
+Application de gestion de bibliotheque
+Interface web locale
 """
 
 import json
