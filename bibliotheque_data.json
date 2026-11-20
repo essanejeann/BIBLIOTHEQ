@@ -1,0 +1,134 @@
+{
+    "livres": [
+        {
+            "id": 1,
+            "titre": "L'Aventure ambiguë",
+            "auteur": "Cheikh Hamidou Kane",
+            "section": "Fonds Général & Littérature",
+            "categorie": "Littérature négro-africaine",
+            "acquisition": "Don en nature",
+            "etat": "Bon état",
+            "disponible": true
+        },
+        {
+            "id": 2,
+            "titre": "Une si longue lettre",
+            "auteur": "Mariama Bâ",
+            "section": "Fonds Général & Littérature",
+            "categorie": "Romans",
+            "acquisition": "Acquisition auprès des maisons d'édition (partenariat)",
+            "etat": "Neuf",
+            "disponible": false
+        },
+        {
+            "id": 3,
+            "titre": "Introduction aux Algorithmes",
+            "auteur": "Thomas Cormen",
+            "section": "Fonds Général & Littérature",
+            "categorie": "Informatique et généralités / revues",
+            "acquisition": "Acquisition auprès des maisons d'édition (partenariat)",
+            "etat": "Bon état",
+            "disponible": true
+        },
+        {
+            "id": 4,
+            "titre": "Tintin au Congo",
+            "auteur": "Hergé",
+            "section": "Jeunesse, Sciences & Documentaires",
+            "categorie": "Bande dessinée",
+            "acquisition": "Don en nature",
+            "etat": "État moyen",
+            "disponible": true
+        },
+        {
+            "id": 5,
+            "titre": "Atlas Mondial du 21e Siècle",
+            "auteur": "Collectif",
+            "section": "Jeunesse, Sciences & Documentaires",
+            "categorie": "Atlas",
+            "acquisition": "Acquisition auprès des maisons d'édition (partenariat)",
+            "etat": "Neuf",
+            "disponible": true
+        },
+        {
+            "id": 6,
+            "titre": "Le Petit Prince",
+            "auteur": "Antoine de Saint-Exupéry",
+            "section": "Jeunesse, Sciences & Documentaires",
+            "categorie": "Littérature jeunesse, contes et légendes",
+            "acquisition": "Don en nature",
+            "etat": "Bon état",
+            "disponible": true
+        },
+        {
+            "id": 7,
+            "titre": "Revue des Sciences Sociales en Afrique",
+            "auteur": "CODESRIA",
+            "section": "Fonds Général & Littérature",
+            "categorie": "Science sociale Afrique",
+            "acquisition": "Acquisition auprès des maisons d'édition (partenariat)",
+            "etat": "Neuf",
+            "disponible": true
+        }
+    ],
+    "usagers": [
+        {
+            "id": 1,
+            "nom_prenom": "Aminata Diallo",
+            "sexe": "F",
+            "niveau": "Élèves (1er cycle)",
+            "tarif_annuel": 2000,
+            "contact": "07 01 02 03 04",
+            "date_inscription": "2026-10-01",
+            "actif": true
+        },
+        {
+            "id": 2,
+            "nom_prenom": "Moussa Traoré",
+            "sexe": "M",
+            "niveau": "Étudiants",
+            "tarif_annuel": 3000,
+            "contact": "05 11 22 33 44",
+            "date_inscription": "2026-10-15",
+            "actif": true
+        },
+        {
+            "id": 3,
+            "nom_prenom": "Fatou Ndiaye",
+            "sexe": "F",
+            "niveau": "Écoliers",
+            "tarif_annuel": 1000,
+            "contact": "01 23 45 67 89",
+            "date_inscription": "2026-11-01",
+            "actif": true
+        },
+        {
+            "id": 4,
+            "nom_prenom": "Dr. Jean Kouassi",
+            "sexe": "M",
+            "niveau": "Personnes avec source de revenus",
+            "tarif_annuel": 5000,
+            "contact": "07 88 99 00 11",
+            "date_inscription": "2026-11-10",
+            "actif": true
+        }
+    ],
+    "emprunts": [
+        {
+            "id": 1,
+            "nom_prenom": "Aminata Diallo",
+            "sexe": "F",
+            "niveau": "Élèves (1er cycle)",
+            "titre_livre": "Une si longue lettre",
+            "contact": "07 01 02 03 04",
+            "id_usager": 1,
+            "id_livre": 2,
+            "date_emprunt": "2026-11-01",
+            "date_retour_prevue": "2026-11-15",
+            "date_retour_effective": null,
+            "etat_depart": "Neuf",
+            "etat_retour": null,
+            "statut": "En cours"
+        }
+    ]
+}
